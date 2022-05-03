@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hectors:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hectors</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hectors-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hectors:war exploded" />
+    </root>
+  </artifact>
+</component>
