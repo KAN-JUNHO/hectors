@@ -1,14 +1,16 @@
 package org.global.conan;
 
 import java.util.Date;
+import java.util.stream.DoubleStream;
 
 public class Members {
     String userId;
     String userPwd;;
-    String name;
+    String userName;
+    String phoneNo;
     String address;
-    Date regDate;
     String email;
+    String regDate;
 
     public String getUserId() {
         return userId;
@@ -26,12 +28,20 @@ public class Members {
         this.userPwd = userPwd;
     }
 
-    public String getName() {
-        return name;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getPhoneNo() {
+        return phoneNo;
+    }
+
+    public void setPhoneNo(String phoneNo) {
+        this.phoneNo = phoneNo;
     }
 
     public String getAddress() {
@@ -42,19 +52,19 @@ public class Members {
         this.address = address;
     }
 
-    public Date getRegDate() {
-        return regDate;
-    }
-
-    public void setRegDate(Date regDate) {
-        this.regDate = regDate;
-    }
-
     public String getEmail() {
         return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getRegDate() {
+        return regDate;
+    }
+
+    public void setRegDate(String regDate) {
+        this.regDate = regDate;
     }
 }
