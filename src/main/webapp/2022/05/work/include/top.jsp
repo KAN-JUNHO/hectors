@@ -18,9 +18,9 @@
 </style>
 <body>
 
-    TOP 메뉴 - <a href="./main.jsp?target=home">홈</a>
-    <a href="./main.jsp?target=champ">챔피언 정보</a>
-    <a href="./main.jsp?target=tech">공략</a>
+    TOP 메뉴 - <a href="../lol/main.jsp?target=home">홈</a>
+    <a href="../lol/main.jsp?target=champ">챔피언 정보</a>
+    <a href="../lol/main.jsp?target=tech">공략</a>
 
 </body>
 </html>
